@@ -4,11 +4,6 @@
     background-size: 200px;
     font-family: arial, sans-serif;
 }
-.b2{
-    background-image: url("./img/Background.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
 .font{
     margin: auto;
     color: white;
@@ -25,17 +20,141 @@
 }
 .a{
     color: red;
+    text-decoration: none;
 }
 .b{
     color: black;
 }
 .c{
-    color: black;
+    color: cadetblue;
     font-family: arial;
+    text-decoration: none;
 }
 #ol{
     list-style: hiragana;
 }
-.text{
-    border-radius: 10px;
+a:hover{
+    background-color: lightblue;
+}
+.e:hover{
+    color: white;
+    background-color: white;
+}
+a.e{
+    color: red;
+    text-decoration: none;
+}
+a.c:hover{
+    font-size: 20px;
+    transition: transform 0.2 ease-in-out;
+}
+img.a{
+    border-radius: 15px;
+}
+
+.b2{
+    background-image: url("./img/Background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.form{
+    font-size: 21px;
+}
+.f{
+    font-family: arial;
+}
+.input-field{
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 30px;
+    border: 100px;
+}
+.button{
+    padding: 5px;
+    color: yellow;
+    background-color: black;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    background-color: #282B30;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+.navbar a {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+
+}
+
+.navbar a:hover {
+    background-color: #1E2124;
+}
+
+table.a{
+    background-color: #D9EEE1;
+    width: 100%;
+    height: 100%;
+}
+table.b{
+    background-color: #FFF4A3;
+    width: 100%;
+    height: 100%;
+}
+table.c{
+    background-color: #F3ECEA;
+    width: 100%;
+    height: 100%;
+}
+td{
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    height: 200px;
+}
+button.green{
+    color: white;
+    background-color: #04AA6D;
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    border: 0px;
+}
+button.black{
+    color: white;
+    background-color: #15202B;
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    border: 0px;
+}
+button.pink{
+    color: white;
+    background-color: #FFC0C7;
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    border: 0px;
 }
