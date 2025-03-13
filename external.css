@@ -1,0 +1,41 @@
+.b1{
+    background-image:url("./img/cat.jpg");
+    background-repeat: repeat-x repeat-y;
+    background-size: 200px;
+    font-family: arial, sans-serif;
+}
+.b2{
+    background-image: url("./img/Background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.font{
+    margin: auto;
+    color: white;
+}
+#table{
+    border-radius: 10px;
+    margin: auto;
+}
+.header{
+    background-color: cadetblue;
+}
+.bottom{
+    background-color: white;
+}
+.a{
+    color: red;
+}
+.b{
+    color: black;
+}
+.c{
+    color: black;
+    font-family: arial;
+}
+#ol{
+    list-style: hiragana;
+}
+.text{
+    border-radius: 10px;
+}
